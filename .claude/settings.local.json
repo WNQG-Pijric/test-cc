@@ -6,7 +6,8 @@
       "Bash(git commit *)",
       "Bash(git pull *)",
       "Bash(git push *)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(python3 -c \"import sys,json; [print\\(json.dumps\\(json.loads\\('{'+l.split\\('{',1\\)[1]\\),indent=2\\)\\) for l in sys.stdin]\")"
     ]
   }
 }
